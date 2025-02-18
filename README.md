@@ -1,16 +1,9 @@
-# listviewbuilder_widget
+Here is exercise of ListViewBuilder widget with flutter. You can check my code here. 
+![Screenshot 2025-02-18 154101](https://github.com/user-attachments/assets/0ae4c79f-7c4e-4978-bb47-7d10b6ea3d64)
+![Screenshot 2025-02-18 154123](https://github.com/user-attachments/assets/b6a71c7d-ba57-4295-8047-f9977a771dc5)
 
-A new Flutter project.
+ListView.builder()
+The builder() constructor constructs a repeating list of widgets. The constructor takes two main parameters:  
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
++An itemCount for the number of repetitions for the widget to be constructed (not compulsory).
++An itemBuilder for constructing the widget which will be generated ‘itemCount‘ times (compulsory).
